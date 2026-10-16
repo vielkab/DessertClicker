@@ -267,13 +267,13 @@ private fun RevenueInfo(revenue: Int, modifier: Modifier = Modifier) {
         Text(
             text = stringResource(R.string.total_revenue),
             style = MaterialTheme.typography.headlineMedium,
-            //color = MaterialTheme.colorScheme.onSecondaryContainer
+            color = Color.Black
         )
         Text(
             text = "$${revenue}",
             textAlign = TextAlign.Right,
             style = MaterialTheme.typography.headlineMedium,
-            //color = MaterialTheme.colorScheme.onSecondaryContainer
+            color = Color.Black
         )
     }
 }
@@ -289,12 +289,12 @@ private fun DessertsSoldInfo(dessertsSold: Int, modifier: Modifier = Modifier) {
         Text(
             text = stringResource(R.string.dessert_sold),
             style = MaterialTheme.typography.titleLarge,
-            //color = MaterialTheme.colorScheme.onSecondaryContainer
+            color = Color.Black
         )
         Text(
             text = dessertsSold.toString(),
             style = MaterialTheme.typography.titleLarge,
-            //color = MaterialTheme.colorScheme.onSecondaryContainer
+            color = Color.Black
         )
     }
 }
